@@ -1,3 +1,5 @@
+
+
 #include "ReadFile.h"
 #include <iostream>
 #include <string>
@@ -44,3 +46,6 @@ String* readLine(ReadFile* rf)
    String* str = new String((const char*) text.c_str());
    return str;
 }
+
+
+//ChangeReadFile.cpp
