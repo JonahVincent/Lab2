@@ -20,6 +20,10 @@ String* readLine(ReadFile* rf);
 bool eof(ReadFile* rf);
 void close(ReadFile* rf);
 
+<<<<<<< HEAD
+//random comment
+=======
 //changeJV
+>>>>>>> 6f81b3481e9d234a8e5472530141f819e49b48df
 
 #endif
