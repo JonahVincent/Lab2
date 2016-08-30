@@ -20,4 +20,6 @@ String* readLine(ReadFile* rf);
 bool eof(ReadFile* rf);
 void close(ReadFile* rf);
 
+//changeJV
+
 #endif
