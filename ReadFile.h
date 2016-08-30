@@ -4,8 +4,9 @@
 #include "Text.h"
 
 #include <fstream>
-using namespace std;
+using namespace std; 
 
+//This is a comment to see if this works
 struct ReadFile
 {
    ifstream input_file;
