@@ -6,7 +6,6 @@
 #include <fstream>
 using namespace std; 
 
-//This is a comment to see if this works
 class ReadFile
 {
    private:
