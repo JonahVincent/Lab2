@@ -16,16 +16,10 @@ class ReadFile
    public:
 	ReadFile(const char* file_name); //constructor
 	~ReadFile();                     //destructor 
-	String* readLine();
-	bool eof();
-	void close();
+	String* readLine();              //reads a line from the file and returns it in a string
+	bool eof();                      //checks to see if it is the end of the file
+	void close();                    //closses the file
 };
 
-/*
-ReadFile* createReadFile(const char* file_name);
-void destroyReadFile(ReadFile* rf);
-String* readLine(ReadFile* rf);
-bool eof(ReadFile* rf);
-void close(ReadFile* rf);
-*/
+
 #endif
