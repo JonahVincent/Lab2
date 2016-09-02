@@ -6,22 +6,20 @@
 #include <fstream>
 using namespace std;
 
+//WriteFile.h file containing the class WriteFile and its private and public function prototypes
 
-
-class WriteFile{
+class WriteFile
+{
 
 private:
 	ofstream output_file;
 	bool closed;
-	const char* file_name;
 
 public:
-	WriteFile();
+	WriteFile(const char* file_name);
 	~WriteFile();
-	void writeLine(WriteFile* wf, String* line);	
-	void close(WriteFile* wf);
-	const char* setFileName(const char* text);
-	const char* getFileName();	
+	void writeLine(String* line);	
+	void close();
 };
 
 #endif
